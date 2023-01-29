@@ -1,0 +1,47 @@
+.NavBar-container {
+    border: 2px red solid;
+    height: 80px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar-left {
+    display: flex;
+    align-items: center;
+    padding-right: .5rem;
+    gap: 1rem;
+}
+
+.NavBar-name {
+    color: white;
+    font-size: 2rem;
+}
+
+.NavBar-title {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.NavLinks-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.Link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Link:hover {
+    color: white;
+}
