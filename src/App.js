@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      TEST
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

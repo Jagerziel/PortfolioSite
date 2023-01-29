@@ -1,0 +1,21 @@
+.BottomBar-container {
+    border: solid red 2px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 9px;
+    color: rgb(114, 114, 114);
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999999;
+    white-space: pre;
+}
+
+/* WORKING ON THIS */
+.BottomBar-text {
+    /* border: solid red 2px; */
+    overflow-wrap: break-word;
+}
+
