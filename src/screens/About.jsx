@@ -1,5 +1,5 @@
 // Import Components
-
+import AboutMe from "../components/About/AboutMe.jsx";
 // Import CSS
 import "./About.css";
 
@@ -11,6 +11,7 @@ export default function About() {
     <div className="About-container">
       <div>
         About Page
+        <AboutMe />
       </div>
     </div>
   );
