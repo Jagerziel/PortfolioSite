@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <img className="backgroundImg" src='../public/images/circuit1.jpg' alt="" />  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
