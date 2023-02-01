@@ -79,11 +79,11 @@ ul {
     height: 3rem;
     width: auto;
     filter: 
-        invert(70%)
+        invert(20%)
         sepia(76%)
         saturate(1211%)
         hue-rotate(190deg)
-        brightness(107%)
+        brightness(207%)
         contrast(100%)
 }
 
