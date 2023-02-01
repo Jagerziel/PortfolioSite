@@ -13,17 +13,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <img className="backgroundImg" src='../public/images/circuit1.jpg' alt="" />  
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <BottomBar />
-    </div>
+    <>
+      <div className="App">
+        <NavBar />
+        <img className="backgroundImg" src='../public/images/circuit1.jpg' alt="" />  
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <BottomBar />
+      </div>
+    </>
   );
 }
 

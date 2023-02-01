@@ -25,14 +25,49 @@
 .AboutMe-Left {
     width: 33%;
     height: auto;
+    padding: 1rem;
 }
 
 .AboutMe-Right {
+    /* border: green 2px solid; */
     width: 66%;
     height: auto;
+    padding: 1rem;
+    display: flexbox;
+    flex-direction: column;
 }
 
 .profile-img {
     width: 100%;
     height: auto;
+}
+
+#italics {
+    font-style: italic;
+}
+
+.AboutMe-List {
+    padding-top: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+
+.amli {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#img1 {
+    height: 2rem;
+    width: auto;
+    filter: invert();
 }

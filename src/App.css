@@ -3,12 +3,17 @@
 }
 
 .App {
-  border: 2px rgb(43, 255, 0) solid;
+  /* border: 2px rgb(43, 255, 0) solid; */
+  height: 100vh;
   text-align: center;
   background: url(../public/images/circuit1.jpg) no-repeat center center fixed;
-
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+.backgroundImg {
+  position: fixed;
+}
+
