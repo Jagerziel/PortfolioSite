@@ -2,7 +2,7 @@
     border: solid red 2px;
     width: 92vw;
     background: rgba(0, 0, 0, 0.9);
-    padding: 2rem;
+    padding: 2rem 0 2rem 2rem;
     color: white;
 }
 
@@ -44,18 +44,18 @@
 
 #italics {
     font-style: italic;
+    font-size: 1rem;
 }
 
 .AboutMe-List {
     padding-top: .5rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 ul {
     list-style: none;
-    
 }
 
 
@@ -67,7 +67,7 @@ ul {
 }
 
 #img1 {
-    height: 2rem;
+    height: 3rem;
     width: auto;
     filter: invert();
 }

@@ -25,9 +25,9 @@ export default function AboutMe() {
             <img className="profile-img" src="images/pic_placeholder.jpg" alt="Img" />
           </div>
           <div className="AboutMe-Right">
-            <h2>
+            <h1>
               An Innovative Mindset that Brings Projects to New Heights
-            </h2>
+            </h1>
             <p id="italics">I'm an innovator with a passion for business and tech.  Here are some of my passions: </p>
             <div className="AboutMe-List">
               <ul>
@@ -35,13 +35,30 @@ export default function AboutMe() {
                   <div><img id="img1" className="profile-img" src="images/CompIcon.png" alt="Img" /></div>
                   <div>Software Engineering</div>
                   </li>
-                <li className="amli">Product Development</li>
-                <li className="amli">International Business</li>
+                <li className="amli">
+                  <div><img id="img1" className="profile-img" src="images/ProdIcon.png" alt="Img" /></div>
+                  <div>Product Development</div>
+                </li>
+                <li className="amli">
+                  <div><img id="img1" className="profile-img" src="images/IntlIcon.png" alt="Img" /></div>
+                  <div>International Business</div>
+                </li>
               </ul>
               <ul>
-                <li className="amli">Innovate Technologies</li>
-                <li className="amli">Sustainable Design</li>
-                <li className="amli">Achieving the Impossible</li>
+                <li className="amli">
+                  <div><img id="img1" className="profile-img" src="images/LightIcon.png" alt="Img" /></div>
+                  <div>Innovative Technologies</div>
+                </li>
+                <li className="amli">
+                  <div><img id="img1" className="profile-img" src="images/FishIcon.png" alt="Img" /></div>
+                  <div>Sustainable Design</div>
+                </li>
+                <li className="amli">
+                  <div><img id="img1" className="profile-img" src="images/SustIcon.png" alt="Img" /></div>
+                  <div>Achieving the Impossible</div>
+                  
+                  
+                </li>
               </ul>
             </div>
           </div>
