@@ -11,5 +11,28 @@
     color: #aaaaaa;
 }
 
+.About-Me-Header2 {
+    text-align: left;
+    color: white;
+}
 
+.AboutMe-ContentHolder {
+    border: solid red 2px;
+    display: flex;
+    flex-flow: column-wrap;
+}
 
+.AboutMe-Left {
+    width: 33%;
+    height: auto;
+}
+
+.AboutMe-Right {
+    width: 66%;
+    height: auto;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+}
