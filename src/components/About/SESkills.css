@@ -70,31 +70,31 @@
 
 #img2 {
     filter: 
-        invert(50%)
-        sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
-        brightness(207%)
+        invert(10%)
+        sepia(100%) 
+        hue-rotate(190deg) 
+        saturate(500%)
+        brightness(357%)
         contrast(100%)
 }
 
 #img3 {
     filter: 
-        invert(50%)
-        sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
-        brightness(207%)
+        invert(10%)
+        sepia(96%)
+        saturate(211%)
+        hue-rotate(80deg)
+        brightness(300%)
         contrast(100%)
 }
 
 #img4 {
     filter: 
-        invert(50%)
-        sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
-        brightness(207%)
+        invert(20%)
+        sepia(100%)
+        saturate(8000%)
+        hue-rotate(0deg)
+        brightness(80%)
         contrast(100%)
 }
 
