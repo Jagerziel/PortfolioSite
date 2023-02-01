@@ -6,7 +6,7 @@
     bottom: 0;
     padding: 10px;
     text-align: center;
-    font-size: 9px;
+    font-size: .8rem;
     color: rgb(114, 114, 114);
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 999999;

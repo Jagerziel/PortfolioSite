@@ -68,12 +68,23 @@ ul {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: rgb(179, 210, 253);
+}
+
+.amli :hover {
+    color: white;
 }
 
 #img1 {
     height: 3rem;
     width: auto;
-    filter: invert();
+    filter: 
+        invert(70%)
+        sepia(76%)
+        saturate(1211%)
+        hue-rotate(190deg)
+        brightness(107%)
+        contrast(100%)
 }
 
 .AboutMe-Desc {
