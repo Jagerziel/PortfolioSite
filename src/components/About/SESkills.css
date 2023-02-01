@@ -15,7 +15,7 @@
 
 .SESkills-ContentHolder {
     border: solid red 2px;
-    padding: 30px 0 30px 0;
+    padding: 0px 0 0px 0;
     margin: 0 0 0 0;
     --n: 3; /* number of rows*/
     --m: 4; /* number of columns */
@@ -102,8 +102,8 @@
     filter: 
         invert(50%)
         sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
+        saturate(8011%)
+        hue-rotate(300deg)
         brightness(207%)
         contrast(100%)
 }
@@ -113,17 +113,17 @@
         invert(50%)
         sepia(76%)
         saturate(1211%)
-        hue-rotate(180deg)
+        hue-rotate(80deg)
         brightness(207%)
         contrast(100%)
 }
 
 #img7 {
     filter: 
-        invert(50%)
+        invert(20%)
         sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
+        saturate(861%)
+        hue-rotate(230deg)
         brightness(207%)
         contrast(100%)
 }
@@ -132,39 +132,39 @@
     filter: 
         invert(50%)
         sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
-        brightness(207%)
+        saturate(411%)
+        hue-rotate(16deg)
+        brightness(507%)
         contrast(100%)
 }
 
 #img9 {
     filter: 
         invert(50%)
-        sepia(76%)
+        sepia(100%)
         saturate(1211%)
-        hue-rotate(180deg)
+        hue-rotate(100deg)
         brightness(207%)
         contrast(100%)
 }
 
 #img10 {
     filter: 
-        invert(50%)
-        sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
-        brightness(207%)
+        invert(20%)
+        sepia(100%)
+        saturate(400%)
+        hue-rotate(0deg)
+        brightness(200%)
         contrast(100%)
 }
 
 #img11 {
     filter: 
-        invert(50%)
-        sepia(76%)
-        saturate(1211%)
-        hue-rotate(180deg)
-        brightness(207%)
+        invert(10%)
+        sepia(100%) 
+        hue-rotate(190deg) 
+        saturate(200%)
+        brightness(457%)
         contrast(100%)
 }
 
