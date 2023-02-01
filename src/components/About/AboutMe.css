@@ -44,8 +44,15 @@
 }
 
 .AMImg {
-    width: 100%;
-    height: auto;
+    height: 3rem;
+    width: auto;
+    filter: 
+        invert(10%)
+        sepia(100%)
+        saturate(20%)
+        hue-rotate(0deg)
+        brightness(800%)
+        contrast(30%) 
 }
 
 #italics {
@@ -82,24 +89,12 @@ ul {
     color: white;
     transition: ease-in-out 0.3s;
     filter: 
-        /* invert(20%) */
+        invert(20%)
         /* sepia(76%) */
         /* saturate(1211%) */
         /* hue-rotate(190deg) */
-        brightness(207%)
+        brightness(1007%)
         contrast(100%)
-}
-
-#img1 {
-    height: 3rem;
-    width: auto;
-    filter: 
-        invert(50%)
-        /* sepia(76%)
-        saturate(1211%)
-        hue-rotate(190deg)
-        brightness(207%)
-        contrast(100%) */
 }
 
 .AboutMe-Desc {

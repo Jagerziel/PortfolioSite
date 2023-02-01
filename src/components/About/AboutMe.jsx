@@ -29,29 +29,29 @@ export default function AboutMe() {
             <div className="AboutMe-List">
               <ul>
                 <li className="amli">
-                  <div><img id="img1" className="AMImg" src="images/CompIcon.png" alt="Img" /></div>
+                  <div><img className="AMImg" src="images/CompIcon.png" alt="Img" /></div>
                   <div>Software Engineering</div>
                   </li>
                 <li className="amli">
-                  <div><img id="img1" className="AMImg" src="images/ProdIcon.png" alt="Img" /></div>
+                  <div><img className="AMImg" src="images/ProdIcon.png" alt="Img" /></div>
                   <div>Product Development</div>
                 </li>
                 <li className="amli">
-                  <div><img id="img1" className="AMImg" src="images/IntlIcon.png" alt="Img" /></div>
+                  <div><img className="AMImg" src="images/IntlIcon.png" alt="Img" /></div>
                   <div>International Business</div>
                 </li>
               </ul>
               <ul>
                 <li className="amli">
-                  <div><img id="img1" className="AMImg" src="images/LightIcon.png" alt="Img" /></div>
+                  <div><img className="AMImg" src="images/LightIcon.png" alt="Img" /></div>
                   <div>Innovative Technologies</div>
                 </li>
                 <li className="amli">
-                  <div><img id="img1" className="AMImg" src="images/FishIcon.png" alt="Img" /></div>
+                  <div><img className="AMImg" src="images/FishIcon.png" alt="Img" /></div>
                   <div>Sustainable Design</div>
                 </li>
                 <li className="amli">
-                  <div><img id="img1" className="AMImg" src="images/SustIcon.png" alt="Img" /></div>
+                  <div><img className="AMImg" src="images/SustIcon.png" alt="Img" /></div>
                   <div>Achieving the Impossible</div>
                 </li>
               </ul>
