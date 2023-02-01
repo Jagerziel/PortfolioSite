@@ -26,7 +26,7 @@
 .AboutMe-Left {
     width: 33%;
     height: auto;
-    padding: 1rem 1.3rem 1rem 1rem;
+    padding: 1rem 1.3rem 1rem 0rem;
 }
 
 .AboutMe-Right {
@@ -39,6 +39,11 @@
 }
 
 .profile-img {
+    width: 100%;
+    height: auto;
+}
+
+.AMImg {
     width: 100%;
     height: auto;
 }
@@ -75,6 +80,7 @@ ul {
 
 .amli :hover {
     color: white;
+    transition: ease-in-out 0.3s;
     filter: 
         /* invert(20%) */
         /* sepia(76%) */
