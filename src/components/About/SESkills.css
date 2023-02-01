@@ -1,0 +1,20 @@
+.SESkills-container {
+    border: solid red 2px;
+    width: 92vw;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 0 2rem 2rem 2rem;
+    color: white;
+}
+
+.SESkills-Header {
+    text-align: left;
+    color: #aaaaaa;
+    font-variant: small-caps;
+    padding-bottom: 1rem;
+}
+
+.SESkills-ContentHolder {
+    border: solid red 2px;
+    display: flex;
+    flex-flow: column-wrap;
+}

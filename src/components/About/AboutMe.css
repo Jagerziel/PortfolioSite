@@ -9,6 +9,7 @@
 .About-Me-Header {
     text-align: left;
     color: #aaaaaa;
+    font-variant: small-caps;
 }
 
 .About-Me-Header2 {
@@ -17,7 +18,7 @@
 }
 
 .AboutMe-ContentHolder {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     display: flex;
     flex-flow: column-wrap;
 }
@@ -25,7 +26,7 @@
 .AboutMe-Left {
     width: 33%;
     height: auto;
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 1.3rem 1rem 1rem;
 }
 
 .AboutMe-Right {
@@ -68,23 +69,31 @@ ul {
     display: flex;
     align-items: center;
     gap: 1rem;
-    color: rgb(179, 210, 253);
+    /* color: rgb(179, 210, 253); */
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .amli :hover {
     color: white;
+    filter: 
+        /* invert(20%) */
+        /* sepia(76%) */
+        /* saturate(1211%) */
+        /* hue-rotate(190deg) */
+        brightness(207%)
+        contrast(100%)
 }
 
 #img1 {
     height: 3rem;
     width: auto;
     filter: 
-        invert(20%)
-        sepia(76%)
+        invert(50%)
+        /* sepia(76%)
         saturate(1211%)
         hue-rotate(190deg)
         brightness(207%)
-        contrast(100%)
+        contrast(100%) */
 }
 
 .AboutMe-Desc {

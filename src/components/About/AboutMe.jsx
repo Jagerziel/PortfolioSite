@@ -2,10 +2,7 @@
 
 // Import CSS
 import "./AboutMe.css";
-
 // Import Icons
-
-
 
 // Export About Function
 export default function AboutMe() {

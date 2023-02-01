@@ -1,5 +1,6 @@
 // Import Components
 import AboutMe from "../components/About/AboutMe.jsx";
+import SESkills from "../components/About/SESkills.jsx";
 // Import CSS
 import "./About.css";
 
@@ -10,8 +11,8 @@ export default function About() {
   return (
     <div className="About-container">
       <div>
-        About Page
         <AboutMe />
+        <SESkills />
       </div>
     </div>
   );
