@@ -1,6 +1,7 @@
 // Import Components
 import AboutMe from "../components/About/AboutMe.jsx";
 import SESkills from "../components/About/SESkills.jsx";
+import References from "../components/About/References.jsx";
 // Import CSS
 import "./About.css";
 
@@ -13,6 +14,7 @@ export default function About() {
       <div>
         <AboutMe />
         <SESkills />
+        <References />
       </div>
     </div>
   );
