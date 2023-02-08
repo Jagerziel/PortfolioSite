@@ -1,12 +1,12 @@
 // Import Components
-
+import ReferenceComp from "./ReferenceComp.jsx";
 // Import CSS
 import "./References.css";
 // Import Icons
 
 // Export About Function
 export default function References() {
-
+  
   // Return Div for About Container
   return (
     <div className="References-container">
@@ -15,7 +15,7 @@ export default function References() {
             References
         </div>
         <div className="References-ContentHolder">
-            TESTING
+            <ReferenceComp />
         </div>
       </div>
     </div>
