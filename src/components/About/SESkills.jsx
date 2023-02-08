@@ -72,7 +72,7 @@ export default function SESkills() {
             <div className="IconBox">
                 <div className="SEli">
                     <div><img id="img10" className="SES-img" src="images/SQLIcon.png" alt="Img" /></div>
-                    <div className="whiteText">MySQL</div>
+                    <div className="whiteText">PostgresSQL</div>
                 </div>
             </div>
             <div className="IconBox">
