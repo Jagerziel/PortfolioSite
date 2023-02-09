@@ -1,8 +1,18 @@
 .ReferenceComp-container {
     border: solid red 2px;
-    width: 92vw;
+    /* width: 92vw;*/
     background: rgba(0, 0, 0, 0.9);
-    padding: 0 2rem 2rem 2rem;
-    color: white;
-    border-radius: 6px;
+    color: white; 
+    /* border-radius: 6px; */
 }
+
+/* .ReferenceComp-RefHolder {
+    border: solid red 2px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+} */
+
+/* .ReferenceComp-ContentHolder {
+    color: white;
+} */
+

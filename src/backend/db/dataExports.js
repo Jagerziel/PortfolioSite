@@ -1,4 +1,4 @@
-[
+export const references = [
     {
         "name": "TestName",
         "title": "My Title",
