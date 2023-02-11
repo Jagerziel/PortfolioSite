@@ -6,11 +6,11 @@
     /* border-radius: 6px; */
 }
 
-/* .ReferenceComp-RefHolder {
+.ReferenceComp-RefHolder {
     border: solid red 2px;
     background: rgba(0, 0, 0, 0.2);
     color: white;
-} */
+}
 
 /* .ReferenceComp-ContentHolder {
     color: white;

@@ -21,14 +21,16 @@ export default function ReferenceComp() {
                     <div className="ReferenceComp-Header">
                         ReferenceComp
                     </div>
-                    {/* <div className='ReferenceComp-RefHolder'>
+                    <div className='ReferenceComp-RefHolder'>
                         {references.map((item, index) => {
-                                <div className='ReferenceComp-ContentHolder'>
+                            return (
+                                <div className='ReferenceComp-ContentHolder' key={index}>
                                     {item.name}
-                                </div>
+                                </div>                              
+                            )
                             }
                         )}
-                    </div> */}
+                    </div>
             </div>
         </>
     );
