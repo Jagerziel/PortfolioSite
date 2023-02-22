@@ -39,3 +39,18 @@
     cursor: pointer;
     color: white;
 }
+
+.projImages {
+    /* position: relative; */
+    /* object-fit: cover; */
+    /* background: no-repeat center center fixed; 
+    background-size: cover;
+    max-width: 100%;
+    height: auto; */
+    border: solid 2px whitesmoke;
+    display: flexbox;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* or object-fit: contain; */
+}

@@ -17,6 +17,7 @@ export default function PortfolioComp() {
             <div className="PortfolioComp-container">
                     <div className='PortfolioComp-RefHolder'>
                         {projects.map((item, index) => {
+                            let img = item.img !== "" ? "./projectImages/NASA.jpg" : "./projectImages/NASA.jpg"
                             return (
                                 <div className='PortfolioComp-ContentHolder' key={index}>
                                     <h3 className='PortHead'>
@@ -24,9 +25,8 @@ export default function PortfolioComp() {
                                             {item.title}
                                         </a>
                                     </h3>
-                                    <image src={item.img}></image>
+                                    <img src={require("" + item.img)} alt="An Image" className='projImages'/>
                                     <p>{item.description}</p>
-
                                 </div>                              
                             )
                             }
@@ -36,3 +36,4 @@ export default function PortfolioComp() {
         </>
     );
 }
+// import '../../../public/images/JSIcon.png'
