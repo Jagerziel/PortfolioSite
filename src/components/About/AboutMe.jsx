@@ -19,7 +19,7 @@ export default function AboutMe() {
         </h1>
         <div className="AboutMe-ContentHolder">
           <div className="AboutMe-Left">
-            <img className="profile-img" src="images/pic_placeholder.jpg" alt="Img" />
+            <img className="profile-img" src="images/profilepic01.jpeg" alt="Img" />
           </div>
           <div className="AboutMe-Right">
             <h2>
