@@ -6,26 +6,25 @@ import React, { useState } from 'react'
 // Import CSS
 import "./ReferenceComp.css";
 
+
 // Import Files
 import { references } from '../../backend/db/dataExports.js';
 
-// Export About Function
+// Export ReferenceComp Function
 export default function ReferenceComp() {
-    console.log(references)
-
-    // console.log(referenceData)
-    // Return Div for About Container
+    // Return Div for ReferenceComp Container
     return (
         <>
             <div className="ReferenceComp-container">
                     <div className="ReferenceComp-Header">
-                        ReferenceComp
                     </div>
                     <div className='ReferenceComp-RefHolder'>
                         {references.map((item, index) => {
                             return (
                                 <div className='ReferenceComp-ContentHolder' key={index}>
-                                    {item.name}
+                                    {/* <img src='../../../public/images/QuoteLeftIcon.png' alt="" className='quotes'></img> */}
+                                    <p className='reference'>{item.reference}</p>
+                                    <p>{`${item.name} - ${item.title}`}</p>
                                 </div>                              
                             )
                             }

@@ -1,18 +1,34 @@
 .ReferenceComp-container {
-    border: solid red 2px;
-    /* width: 92vw;*/
+    border: solid rgb(30, 255, 0) 2px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.9);
     color: white; 
     /* border-radius: 6px; */
 }
 
 .ReferenceComp-RefHolder {
-    border: solid red 2px;
+    border: solid blue 2px;
     background: rgba(0, 0, 0, 0.2);
     color: white;
+    width: 100%;
+    display: flex;
 }
 
-/* .ReferenceComp-ContentHolder {
-    color: white;
-} */
+.ReferenceComp-ContentHolder {
+    width: 33%;
+}
 
+.quotes {
+    background-color: red;
+    filter: 
+        invert(50%)
+        sepia(76%)
+        saturate(1211%)
+        hue-rotate(20deg)
+        brightness(207%)
+        contrast(100%);
+}   
+
+.reference {
+    font-style: italic;
+}
