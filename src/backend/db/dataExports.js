@@ -21,7 +21,7 @@ export const projects = [
     {
         "title": "Alike",
         "img": "",
-        "description": "Alike is a full-stack social media application designed with developers in mind.  It is a marketplace for ideas, the promotion of personal projects, access to tech resources, and a community for great minds who think Alike",
+        "description": "Alike is a full-stack social media application designed with developers in mind.  It is a marketplace for ideas, the promotion of personal projects, access to tech resources, and a community for great minds who think Alike!",
         "github": "https://github.com/annadruzhinina/FrontEnd-Alike",
     },
     {
@@ -38,7 +38,7 @@ export const projects = [
     },
     {
         "title": "NASA API Project",
-        "img": "",
+        "img": "../../../public/images/projectImages/NASA.jpeg",
         "description": "The NASA Projects API allows you to dynamically view a subset of missions undertaken by NASA detailing the mission description, planets visited, and the mission dates/duration.  For convenience, a limited front-end is included for easy navigation.",
         "github": "https://github.com/Jagerziel/NASA_Project_API",
     },

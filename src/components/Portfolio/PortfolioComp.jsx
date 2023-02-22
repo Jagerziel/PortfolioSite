@@ -1,6 +1,5 @@
 // Import Modules
 import React from 'react'
-
 // Import Components
 
 // Import CSS
@@ -20,10 +19,14 @@ export default function PortfolioComp() {
                         {projects.map((item, index) => {
                             return (
                                 <div className='PortfolioComp-ContentHolder' key={index}>
-                                    <h3>{item.title}</h3>
-                                    <p>IMAGE</p>
+                                    <h3 className='PortHead'>
+                                        <a href={item.github} target="_blank">
+                                            {item.title}
+                                        </a>
+                                    </h3>
+                                    <image src={item.img}></image>
                                     <p>{item.description}</p>
-                                    
+
                                 </div>                              
                             )
                             }

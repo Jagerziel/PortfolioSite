@@ -29,3 +29,13 @@
     border-radius: 5px;
     padding: 15px;
 }
+
+.PortHead {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.PortHead:hover {
+    cursor: pointer;
+    color: white;
+}
