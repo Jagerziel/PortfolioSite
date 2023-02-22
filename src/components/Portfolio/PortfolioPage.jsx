@@ -14,7 +14,7 @@ return (
           Software Engineering Projects
       </div>
       <div className="PortfolioPage-ContentHolder">
-          HELLO 
+          <PortfolioComp />
       </div>
     </div>
   </div>

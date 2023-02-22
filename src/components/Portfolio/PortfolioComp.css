@@ -1,0 +1,31 @@
+.PortfolioComp-container {
+    border: solid rgb(30, 255, 0) 2px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white; 
+    /* border-radius: 6px; */
+}
+
+.PortfolioComp-RefHolder {
+    border: solid blue 2px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 100%;
+    margin: 0 0 0 0;
+    --n: 3; /* number of rows*/
+    --m: 3; /* number of columns */
+    --g: 20px; /* control the gap */
+    --f: 1.5; /* control the scale factor */
+    display: grid;
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);    
+}
+
+
+.PortfolioComp-ContentHolder {
+    border: solid red 2px;
+    border-radius: 5px;
+    padding: 15px;
+}
