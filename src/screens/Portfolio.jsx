@@ -1,5 +1,5 @@
 // Import Components
-
+import PortfolioPage from "../components/Portfolio/PortfolioPage.jsx";
 // Import CSS
 import "./Portfolio.css";
 
@@ -9,9 +9,7 @@ export default function Portfolio() {
   // Return Div for Portfolio Container
   return (
     <div className="Portfolio-container">
-      <div>
-        Portfolio Page
-      </div>
+      <PortfolioPage />
     </div>
   );
 }
