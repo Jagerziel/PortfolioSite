@@ -33,6 +33,7 @@
 
 .PortfolioComp-ContentHolder:hover {
     background: rgba(104, 242, 255, 0.544);
+    border: solid rgb(133, 251, 255) 2px;
 }
 
 .PortHead {
@@ -65,4 +66,5 @@
 
 .portDesc {
     padding-top: 1rem;
+    font-style: italic;
 }
