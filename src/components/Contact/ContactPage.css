@@ -1,11 +1,23 @@
 .Contact-Page-container {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 80vw;
     background: rgba(0, 0, 0, 0.9);
-    padding: 2rem;
     color: white;
     border-radius: 15px;
 }
+
+.Contact-Page-container-overlay {
+    padding: 2rem;
+    background: rgba(169, 249, 255, 0.444);
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.Contact-Page-container-overlay:hover {
+    background: rgba(104, 242, 255, 0.544);
+}
+
 
 .Contact-Page-Header {
     text-align: left;
