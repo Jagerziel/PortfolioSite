@@ -20,7 +20,7 @@ export const projects = [
     },
     {
         "title": "Alike",
-        "img": "./projectImages/NASA.jpg",
+        "img": "./projectImages/AlikeProfile.png",
         "description": "Alike is a full-stack social media application designed with developers in mind.  It is a marketplace for ideas, the promotion of personal projects, access to tech resources, and a community for great minds who think Alike!",
         "github": "https://github.com/annadruzhinina/FrontEnd-Alike",
     },
@@ -50,7 +50,7 @@ export const projects = [
     },
     {
         "title": "Leet Code",
-        "img": "./projectImages/NASA.jpg",
+        "img": "./projectImages/LeetCode2.png",
         "description": "This is a repo where I share my solutions to various Leet Code problems. Included at the start of each file is the date started and language used. At the end of each file, you will see the Leet Code solution times, memory, and percentages.",
         "github": "https://github.com/Jagerziel/Leet_Code",
     }

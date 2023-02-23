@@ -1,0 +1,25 @@
+.Contact-Page-container {
+    border: solid red 2px;
+    width: 92vw;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 2rem;
+    color: white;
+    border-radius: 15px;
+}
+
+.Contact-Page-Header {
+    text-align: left;
+    color: #aaaaaa;
+    font-variant: small-caps;
+}
+
+.Contact-Page-Header2 {
+    text-align: left;
+    color: white;
+}
+
+.Contact-Page-ContentHolder {
+    border: solid red 2px;
+    display: flex;
+    flex-flow: column-wrap;
+}

@@ -26,7 +26,7 @@ export default function PortfolioComp() {
                                         </a>
                                     </h3>
                                     <img src={require("" + item.img)} alt="An Image" className='projImages'/>
-                                    <p>{item.description}</p>
+                                    <p className='portDesc'>{item.description}</p>
                                 </div>                              
                             )
                             }

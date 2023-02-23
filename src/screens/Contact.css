@@ -1,3 +1,8 @@
 .Contact-container {
     height: 91.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
