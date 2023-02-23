@@ -1,5 +1,5 @@
 .SESkills-container {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 92vw;
     background: rgba(0, 0, 0, 0.9);
     padding: 0 2rem 2rem 2rem;
@@ -14,7 +14,7 @@
 }
 
 .SESkills-ContentHolder {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     padding: 0px 0 0px 0;
     margin: 0 0 0 0;
     --n: 3; /* number of rows*/

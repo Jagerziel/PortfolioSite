@@ -14,7 +14,7 @@ export const references = [
 export const projects = [
     {
         "title": "GA Express",
-        "img": "./projectImages/GAExpress.png",
+        "img": "./projectImages/GAExpressHomePage.png",
         "description": "The GA Express application is a full stack e-commerce website constructed by a team of five developers.  The design was constructed with usability in mind and hence provides easy navigation and fully responsiveness",
         "github": "https://github.com/annadruzhinina/FrontEnd-Shop",
     },

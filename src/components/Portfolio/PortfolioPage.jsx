@@ -11,8 +11,11 @@ return (
   <div className="PortfolioPage-container">
     <div className="PortfolioPage-Header-container">
       <div className="PortfolioPage-Header">
-          Software Engineering Projects
+        Portfolio
       </div>
+      <h1 className="Portfolio-Header">
+            SOFTWARE ENGINEERING PROJECTS
+      </h1>
       <div className="PortfolioPage-ContentHolder">
           <PortfolioComp />
       </div>
