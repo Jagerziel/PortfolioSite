@@ -14,7 +14,7 @@ export default function About() {
       <div>
         <AboutMe />
         <SESkills />
-        {/* <References /> */}
+        <References />
       </div>
     </div>
   );
