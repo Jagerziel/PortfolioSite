@@ -15,9 +15,13 @@ export default function ContactPage() {
             Contact
         </div>
         <h1 className="Contact-Page-Header2">
-            CONTACT ME
+            CONTACT INFORMATION
         </h1>
         <div className="Contact-Page-ContentHolder">
+            <p className="ContactDesc">As a lifelong innovator I'm intrigued by other's approaches, methodologies, principals, and strategies.  I enjoy teaching, learning and I very much welcome the opportunity to collaborate or brainstorm ideas. 
+            </p>
+            <p className="ContactDesc">Click on one of the links below to say hello!</p>
+            <div></div>
         </div>
       </div>
     </div>
