@@ -7,6 +7,12 @@
     color: white;
 }
 
+.Portfolio-container {
+    backdrop-filter: blur(3px) !important;
+}
+  
+
+
 .PortfolioPage-Header {
     text-align: left;
     color: #aaaaaa;
@@ -24,3 +30,122 @@
     color: white;
     padding-bottom: 1rem;
 }
+
+/* ANNA CHANGES */
+
+/* .PortfolioComp-container {
+  border: solid red 2px;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  padding: 30px avto;
+/* } */
+
+/* .PortfolioComp-ContentHolder {
+    margin: 20px;
+    padding: 20px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+/* .PortfolioComp-ContentHolder img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+} */
+
+/* .PortfolioComp-ContentHolder p {
+    height: 100px;
+    overflow: scroll;
+} */
+
+/* ==================Mobile 390px Iphone 12 Pro QUERIES (SMALL DEVICES)==================== */
+
+/* @media screen and (max-width: 600px) { */
+    /* h1 { */
+        /* font-size: 1.5rem; */
+    /* } */
+    /* .PortfolioPage-Header { */
+        /* display: none; */
+    /* } */
+    /* .PortfolioComp-RefHolder { */
+        /* padding: 18px; */
+        /* --n: 1 !important; number of rows */
+        /* --m: 1 !important; number of columns */
+        /* --g: 20px !important; */
+        /* control the gap */
+        /* --f: 1.5; control the scale factor */
+
+        /* display: grid; */
+        /* gap: var(--g); */
+        /* width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g)); */
+        /* height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g)); */
+        /* grid-template-columns: repeat(var(--m), auto); */
+    /* } */
+
+    /* .PortfolioComp-ContentHolder {
+        padding: 20px;
+        max-width: 270px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    } */
+    /* .Portfolio-container { */
+        /* width: 100%; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* padding-top: unset !important; */
+        /* padding-bottom: 5rem; */
+        /* backdrop-filter: blur(15px); */
+    /* } */
+    /* .NavBar-left { */
+        /* display: none; */
+    /* } */
+    /* .About-container { */
+        /* padding-bottom: 0 !important; */
+    /* } */
+/* } */
+
+
+/* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
+
+/* @media screen and (max-width: 830px) { */
+    /* .PortfolioComp-RefHolder {
+        color: white;
+        width: 100%;
+        margin: 0 0 0 0;
+        --n: 2;
+        --m: 2;
+        --g: 0;
+        --f: 1.5;
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
+    } */
+    /* .PortfolioComp-ContentHolder {
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    } */
+    /* .Portfolio-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 0 !important;
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+    } */
+/* } */
+  
