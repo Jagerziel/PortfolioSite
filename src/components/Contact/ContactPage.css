@@ -1,23 +1,22 @@
 .Contact-Page-container {
     /* border: solid red 2px; */
-    width: 80vw;
+    width: 92vw;
     background: rgba(0, 0, 0, 0.9);
     color: white;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .Contact-Page-container-overlay {
     padding: 2rem;
-    background: rgba(169, 249, 255, 0.444);
-    border: solid rgb(255, 255, 255) 2px;
-    border-radius: 15px;
-    padding: 15px;
+    /* background: rgba(169, 249, 255, 0.444);
+    border: solid rgb(255, 255, 255) 2px; */
+    /* border-radius: 15px; */
 }
 
-.Contact-Page-container-overlay:hover {
+/* .Contact-Page-container-overlay:hover {
     background: rgba(104, 242, 255, 0.544);
     border: solid rgb(133, 251, 255) 2px;
-}
+} */
 
 
 .Contact-Page-Header {
@@ -34,10 +33,40 @@
 .Contact-Page-ContentHolder {
     border: solid red 2px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.ContactLeft {
+    width: 35%;
+    display: flex;
+}
+
+.ContactRight {
+    width: 65%;
 }
 
 .ContactDesc {
     padding: 0.5rem 0 0 0;
     font-style: italic;
 }
+
+.ContactLeftBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.ContactIcon1 {
+    width: 30px;
+    height: auto;
+    filter: 
+    invert(50%)
+    sepia(76%)
+    saturate(1211%)
+    hue-rotate(180deg)
+    brightness(207%)
+    contrast(100%)
+}
+
+

@@ -18,11 +18,24 @@ export default function ContactPage() {
                 CONTACT INFORMATION
             </h1>
             <div className="Contact-Page-ContentHolder">
-                <p className="ContactDesc">As a lifelong innovator I'm intrigued by other's approaches, methodologies, principals, and strategies.  I enjoy teaching, learning and I very much welcome the opportunity to collaborate or brainstorm ideas. 
-                </p>
-                <p className="ContactDesc">Click on one of the links below to say hello!</p>
-                <div></div>
+                <div className="ContactLeft">
+                    <div>
+                        <div className="ContactLeftBox">
+                            <img src={require("./Icons/LinkedinIcon.png")} className="ContactIcon1"/>
+                            <div>LinkedIn Profile</div>
+                        </div>
+                        <div className="ContactLeftBox">
+                            <img src={require("./Icons/GithubIcon.png")} className="ContactIcon1"/>
+                            <div>Github</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="ContactRight">
+                    <p className="ContactDesc">As a lifelong innovator I'm intrigued by other's approaches, methodologies, principals, and strategies.  I enjoy teaching, learning and I very much welcome the opportunity to collaborate or brainstorm ideas. 
+                    </p>
+                    <p className="ContactDesc">Click on one of the links below to say hello!</p>
 
+                </div>
         </div>
       </div>
     </div>

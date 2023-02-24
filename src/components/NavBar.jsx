@@ -20,9 +20,9 @@ export default function NavBar() {
         </div>
       </div>
       <div className="NavLinks-container">
-        <Link to="/" className="Link">
+        {/* <Link to="/" className="Link">
             Home
-        </Link>
+        </Link> */}
         <Link to="/About" className="Link">
             About
         </Link>
