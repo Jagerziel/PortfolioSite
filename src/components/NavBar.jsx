@@ -1,5 +1,5 @@
 // Import React-Router-Dom
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // Import Components
 
 // Import CSS
@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <div className="NavBar-container">
       <div className="NavBar-left">
-      <div className="NavBar-name">
+        <div className="NavBar-name">
             Ryan Ehrlich
         </div>
         <div className="NavBar-title">
@@ -21,18 +21,18 @@ export default function NavBar() {
         </div>
       </div>
       <div className="NavLinks-container">
-        {/* <Link to="/" className="Link">
+        {/* <NavLink to="/" className="Link" activeClassName="active">
             Home
-        </Link> */}
-        <Link to="/About" className="Link">
+        </NavLink> */}
+        <NavLink to="/About" className="Link" activeClassName="active">
             About
-        </Link>
-        <Link to="/Portfolio" className="Link">
+        </NavLink>
+        <NavLink to="/Portfolio" className="Link" activeClassName="active">
             Portfolio
-        </Link>
-        <Link to="/Contact" className="Link">
+        </NavLink>
+        <NavLink to="/Contact" className="Link" activeClassName="active">
             Contact
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
