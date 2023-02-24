@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    padding-top: 15%;
-    /* padding-bottom: 5rem; */
+    /* padding-top: 15%; */
+    padding-top: 1rem;
+    padding-bottom: 5rem;
     overflow: hidden;
 }
