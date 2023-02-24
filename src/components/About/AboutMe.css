@@ -7,15 +7,31 @@
     color: white;
 }
 
+#linkedin > a {
+    transition: ease-in-out 0.3s;
+    background-color: unset;
+    border: unset;
+}
+
+#linkedin:hover {
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1) !important;
+    background-color: unset;
+    border: unset;
+}
+
 .About-Me-Header {
     text-align: left;
     color: #aaaaaa;
     font-variant: small-caps;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
 }
 
 .About-Me-Header2 {
     text-align: left;
     color: white;
+    font-size: 1.5rem;
 }
 
 .AboutMe-ContentHolder {
@@ -42,35 +58,41 @@
 .profile-img {
     width: 100%;
     height: auto;
+    filter: drop-shadow(7px 8px 15px rgb(0 70 70));
     border: 1px solid white;
 }
 
 .AMImg {
     height: 3rem;
     width: auto;
-    filter: 
-        invert(10%)
-        sepia(100%)
-        saturate(20%)
-        hue-rotate(0deg)
-        brightness(800%)
-        contrast(30%) 
+    filter: invert(95%) sepia(5%) saturate(544%) hue-rotate(231deg)
+      brightness(104%) contrast(104%);
+}
+
+.AMImg:hover {
+    filter: invert(75%) sepia(93%) saturate(2625%) hue-rotate(135deg)
+        brightness(96%) contrast(89%);
 }
 
 #italics {
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 1rem;
-}
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(36, 203, 203);
+    font-weight: bold;
+  }
 
 .AboutMe-List {
     padding-top: .5rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    padding-bottom: 2em;
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding-bottom: .3em;
 }
 
@@ -88,24 +110,232 @@ ul {
 }
 
 .amli :hover {
-    color: white;
+    /* color: white; */
     transition: ease-in-out 0.3s;
-    filter: 
-        invert(20%)
+    /* filter:  */
+        /* invert(20%) */
         /* sepia(76%) */
         /* saturate(1211%) */
         /* hue-rotate(190deg) */
-        brightness(1007%)
-        contrast(100%)
+        /* brightness(1007%) */
+        /* contrast(100%) */
 }
+
 
 .AboutMe-Desc {
     font-size: 1em;
-    padding-top: 1em;
     text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 30px;
 }
 
 .AboutMe-LBSS {
-    font-size: 1.8em;
-    padding-top: 1.5em;
+font-size: 1.8em;
+padding-top: 1.5em;
+color: rgb(36, 203, 203);
+font-weight: bold;
 }
+a:hover {
+transition: ease-in-out 0.3s;
+transform: scale(1.1);
+}
+#AboutMe-LBSS {
+padding-top: 30px;
+}
+
+.aboutMe__p {
+color: rgb(36, 203, 203);
+font-weight: bold;
+}
+.SESkills-ContentHolder {
+background-color: rgba(0, 0, 0, 0.713);
+}
+/* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
+
+@media screen and (max-width: 830px) {
+.SESkills-ContentHolder {
+    /* border: solid red 2px; */
+    padding: 0px 0 0px 0;
+    margin: 0 0 0 0;
+    --n: 3 !important;
+    --m: 3 !important;
+    --g: 20px;
+    --f: 1.5;
+    display: grid;
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);
+}
+.NavBar-title {
+    display: none;
+}
+.PortfolioComp-RefHolder {
+    color: white;
+    width: 100%;
+    margin: 0 0 0 0;
+    --n: 2 !important;
+    --m: 2 !important;
+    --g: 0 !important;
+    --f: 1.5;
+    display: grid;
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);
+}
+.PortfolioComp-ContentHolder {
+    margin: 20px;
+    padding: 20px;
+    width: 300px !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.AboutMe-Left {
+    width: 33%;
+    height: auto;
+    padding: 1rem 1.3rem 1rem 0rem;
+    max-height: 350px;
+}
+.About-container {
+    /* border: solid rgb(0, 255, 170) 2px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 0 !important;
+}
+}
+
+/* ==================Mobile 390px Iphone 12 Pro QUERIES (SMALL DEVICES)==================== */
+
+@media screen and (max-width: 600px) {
+.About-Me-Header {
+    display: none;
+}
+.AboutMe-container {
+    width: 92vw;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 0 2rem 2rem 2rem;
+    color: white;
+}
+.NavBar-name {
+    display: none;
+}
+.NavBar-title {
+    display: none;
+}
+.NavBar-container {
+    height: 80px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.98);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999999;
+}
+.AboutMe-ContentHolder {
+    display: flex;
+    flex-direction: column;
+}
+.AboutMe-Right {
+    width: 85%;
+    height: auto;
+    padding-top: 1rem;
+    display: flexbox;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.App {
+    text-align: initial;
+}
+.AboutMe-Left {
+    width: 85%;
+    height: auto;
+    padding: 1rem 1.3rem 1rem 1.3rem;
+    margin: 0 auto;
+}
+.AboutMe-Desc {
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    width: 110%;
+}
+.SESkills-Header {
+    text-align: center !important;
+}
+#italics {
+    /* font-style: italic; */
+    font-size: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(36, 203, 203);
+    font-weight: bold;
+    text-align: justify;
+    min-width: 111%;
+}
+.AboutMe-List {
+    padding: 30px;
+    --n: 1; /* number of rows*/
+    --m: 1; /* number of columns */
+    /* --g: 20px; */
+    /* control the gap */
+    --f: 1.5; /* control the scale factor */
+
+    display: grid;
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);
+}
+.amli {
+    text-align: initial;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding: 10px 40px;
+    gap: 3rem;
+}
+ul {
+    margin: unset !important;
+    padding: unset !important;
+}
+.SESkills-ContentHolder {
+    padding: 30px !important;
+    --n: 1 !important; /* number of rows*/
+    --m: 1 !important; /* number of columns */
+    --g: 40px !important; /* control the gap */
+    --f: 1.5 !important; /* control the scale factor */
+
+    display: grid;
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);
+}
+
+.About-container {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.PortfolioComp-ContentHolder {
+    margin: 0 auto !important;
+}
+.Portfolio-Header {
+    text-align: left;
+    color: white;
+    padding-bottom: 1rem;
+    padding-left: 10px;
+}
+.NavBar-container {
+    padding: 0 10px 0 10px;
+}
+}
+  
