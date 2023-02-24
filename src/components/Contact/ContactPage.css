@@ -31,23 +31,33 @@
 }
 
 .Contact-Page-ContentHolder {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
 }
 
 .ContactLeft {
     width: 35%;
     display: flex;
+    align-items: center;
 }
 
 .ContactRight {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    row-gap: 10px;
 }
 
 .ContactDesc {
-    padding: 0.5rem 0 0 0;
+    /* padding: 0.5rem 0 0 0; */
     font-style: italic;
+    font-size: 1.3em;
 }
 
 .ContactLeftBox {

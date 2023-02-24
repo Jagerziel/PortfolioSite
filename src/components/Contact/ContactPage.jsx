@@ -29,7 +29,7 @@ export default function ContactPage() {
                     Contact
                 </div>
                 <h1 className="Contact-Page-Header2">
-                    CONTACT INFORMATION
+                    DETAILS
                 </h1>
                 <div className="Contact-Page-ContentHolder">
                     <div className="ContactLeft">

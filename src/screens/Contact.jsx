@@ -1,5 +1,6 @@
 // Import Components
 import ContactPage from "../components/Contact/ContactPage.jsx";
+import Email from "../components/Contact/Email.jsx";
 // Import CSS
 import "./Contact.css";
 
@@ -11,6 +12,7 @@ export default function Contact() {
     <div className="Contact-container">
       <div>
         <ContactPage />
+        <Email />
       </div>
     </div>
   );
