@@ -1,14 +1,17 @@
 .PortfolioComp-container {
-    /* border: solid rgb(30, 255, 0) 2px; */
+    border: solid rgb(30, 255, 0) 2px;
     width: 100%;
     /* background: rgba(0, 0, 0, 0.9); */
     color: white; 
     /* border-radius: 6px; */
+    display: flex;
+    justify-content: center;
 }
 
 .PortfolioComp-RefHolder {
     /* border: solid blue 2px; */
     /* background: rgba(0, 0, 0, 0.2); */
+
     color: white;
     width: 100%;
     margin: 0 0 0 0;
@@ -23,7 +26,7 @@
     grid-template-columns: repeat(var(--m), auto);    
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
     .PortfolioComp-RefHolder {
         margin: 0 0 0 0;
         --n: 4; /* number of rows*/
