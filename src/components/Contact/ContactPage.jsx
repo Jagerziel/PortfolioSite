@@ -34,7 +34,7 @@ export default function ContactPage() {
                         </div>
                         <div className="ContactLeftBox">
                             <img src={require("./Icons/CVIcon.png")} className="ContactIcon1"/>
-                            <div>Resume</div>
+                            <div>Download CV</div>
                         </div>
                     </div>
                 </div>
