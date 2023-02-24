@@ -1,3 +1,6 @@
+// Import Modules
+import { useState } from "react";
+
 // Import Components
 
 // Import CSS
@@ -6,6 +9,7 @@ import "./AboutMe.css";
 
 // Export About Function
 export default function AboutMe() {
+  const [activeNav, setActiveNav] = useState("#");
 
   // Return Div for About Container
   return (
@@ -57,7 +61,16 @@ export default function AboutMe() {
               </ul>
             </div>
             <div className="AboutMe-Desc">
-              Experience in front-end and back-end development. A highly analytical, innovative, and strategic thinker who formulates and implements unique solutions to complex problems. As a former multinational insurance broking and consulting professional, I approach software development with a keen perspective on business application as well as current and future needs. I have worked with complex multinationals in the Education, Food and Beverage, Financial, Real Estate, and Retail sectors as well as domestic Renewable Energy.
+              Experience in <span className="aboutMe__p">Front-End</span> and{" "}
+              <span className="aboutMe__p">Back-End</span> development. A highly
+              analytical, innovative, and strategic thinker who formulates and
+              implements unique solutions to complex problems. As a former
+              multinational insurance broking and consulting professional, I
+              approach software development with a keen perspective on business
+              application as well as current and future needs. I have worked
+              with complex multinationals in the Education, Food and Beverage,
+              Financial, Real Estate, and Retail sectors as well as domestic
+              Renewable Energy.
             </div>
             <div className="AboutMe-Desc">
               My passion is creating things that have never been built before and I blueprint to ensure the creation can evolve, maintain sustainable upkeep costs, and foster easy adoption.   
@@ -65,9 +78,17 @@ export default function AboutMe() {
             <div className="AboutMe-Desc">
               Always innovating, always sharing ideas, and always pushing the limits.
             </div>
-            <div className="AboutMe-LBSS">
+            <a
+              id="linkedin"
+              target="_blank"
+              href="https://www.linkedin.com/in/ryanehrlich/"
+              onClick={() => setActiveNav("linkedin")}
+              className={activeNav === "linkedin" ? "active" : ""}
+            >
+            <span className="AboutMe-LBSS">
               Let's build something special!
-            </div>
+            </span>
+            </a>
           </div>
 
         </div>
