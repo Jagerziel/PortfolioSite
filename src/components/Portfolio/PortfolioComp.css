@@ -12,8 +12,8 @@
     color: white;
     width: 100%;
     margin: 0 0 0 0;
-    --n: 3; /* number of rows*/
-    --m: 3; /* number of columns */
+    --n: 4; /* number of rows*/
+    --m: 4; /* number of columns */
     --g: 20px; /* control the gap */
     --f: 1.5; /* control the scale factor */
     display: grid;
@@ -23,12 +23,61 @@
     grid-template-columns: repeat(var(--m), auto);    
 }
 
+@media screen and (max-width: 1250px) {
+    .PortfolioComp-RefHolder {
+        margin: 0 0 0 0;
+        --n: 4; /* number of rows*/
+        --m: 3; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);  
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .PortfolioComp-RefHolder {
+        margin: 0 0 0 0;
+        --n: 4; /* number of rows*/
+        --m: 2; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);  
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .PortfolioComp-RefHolder {
+        margin: 0 0 0 0;
+        --n: 4; /* number of rows*/
+        --m: 1; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);  
+    }
+}
+
+
 
 .PortfolioComp-ContentHolder {
     background: rgba(169, 249, 255, 0.444);
     border: solid rgb(255, 255, 255) 2px;
     border-radius: 13px;
     padding: 15px;
+    overflow-y: scroll;
+    min-width: 250px;
+    height: 300px;
 }
 
 .PortfolioComp-ContentHolder:hover {
@@ -37,7 +86,7 @@
 }
 
 .PortHead {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.7);
     padding: 0.3rem 0 1rem 0;
 }
@@ -68,4 +117,6 @@
 .portDesc {
     padding-top: 1rem;
     font-style: italic;
+    font-size: .8em;
+    /* border: 2px solid red; */
 }
