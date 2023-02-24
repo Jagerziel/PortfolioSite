@@ -1,7 +1,7 @@
 .PortfolioPage-container {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 92vw;
-    max-width: 1600px;
+    max-width: 1550px;
     background: rgba(0, 0, 0, 0.9);
     padding: 20px 20px 20px 20px;
     color: white;
