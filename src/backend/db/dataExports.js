@@ -1,15 +1,23 @@
 export const references = [
     {
-        "name": "Anna Druzhinina",
-        "title": "Software Engineering Fellow",
-        "reference": "I recently had the pleasure of working with Ryan on a full stack development project, and I must say that he is an exceptional developer. His technical skills are top-notch, and he consistently delivered high-quality code that exceeded expectations. Ryan also has great communication skills, which made it easy to collaborate with him throughout the project. He was always willing to listen to feedback and implement changes quickly and efficiently. One thing that really stood out to me about Ryan was his ability to think outside the box and come up with innovative solutions to complex problems. He was able to streamline processes and improve the overall functionality of the project, which resulted in a more user-friendly experience."
+      name: "Anna Druzhinina",
+      title: "Software Engineering Fellow",
+      reference:
+        "I recently had the pleasure of working with Ryan on a full stack development project, and I must say that he is an exceptional developer. His technical skills are top-notch, and he consistently delivered high-quality code that exceeded expectations. Ryan also has great communication skills, which made it easy to collaborate with him throughout the project. He was always willing to listen to feedback and implement changes quickly and efficiently. One thing that really stood out to me about Ryan was his ability to think outside the box and come up with innovative solutions to complex problems. He was able to streamline processes and improve the overall functionality of the project, which resulted in a more user-friendly experience.",
     },
     {
-        "name": "TestName2",
-        "title": "My Title2",
-        "reference": "Ryan is a super great guy"
-    }
-]
+      name: "Ron Lanzilotta",
+      title: "Software Engineering Fellow",
+      reference:
+        "Ryan is an exceptional full-stack developer with outstanding technical skills and a keen eye for detail. He consistently navigates complex technical challenges with ease and produces work of the highest quality. Ryan is an excellent team player who fosters positive working relationships and communicates effectively to ensure project requirements are met efficiently. Ryan's curious and critical thinking was instrumental in our team's success and helped us deliver high-quality work on time.",
+    },
+  
+    {
+      name: "TestName2",
+      title: "My Title2",
+      reference: "Ryan is a super great guy",
+    },
+  ];
 
 export const projects = [
     {

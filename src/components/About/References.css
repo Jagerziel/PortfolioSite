@@ -1,5 +1,5 @@
 .References-container {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 92vw;
     max-width: 1550px;
     background: rgba(0, 0, 0, 0.9);
@@ -15,8 +15,14 @@
 }
 
 .References-ContentHolder {
-    border: solid rgb(255, 217, 0) 2px;
-    padding: 0px 0 0px 0;
+    /* border: solid rgb(255, 217, 0) 2px; */
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+    padding: 0px 0 15px 0;
+}
+
+.References-ContentHolder:hover {
+    background: rgba(255, 255, 255, 0.20);
 }
 
 /* margin: 0 0 0 0; */
