@@ -17,7 +17,6 @@ export default function PortfolioComp() {
             <div className="PortfolioComp-container">
                     <div className='PortfolioComp-RefHolder'>
                         {projects.map((item, index) => {
-                            let img = item.img !== "" ? "./projectImages/NASA.jpg" : "./projectImages/NASA.jpg"
                             return (
                                 <div className='PortfolioComp-ContentHolder' key={index}>
                                     <a href={item.github} target="_blank">
