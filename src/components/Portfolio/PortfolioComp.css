@@ -53,12 +53,12 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 780px) {
     .PortfolioComp-RefHolder {
         margin: 0 0 0 0;
         --n: 4; /* number of rows*/
         --m: 1 !important; /* number of columns */
-        --g: 20px; /* control the gap */
+        --g: 20px !important;/* control the gap */
         --f: 1.5; /* control the scale factor */
         display: grid;
         gap: var(--g);

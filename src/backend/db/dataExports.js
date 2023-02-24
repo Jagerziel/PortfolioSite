@@ -10,13 +10,7 @@ export const references = [
       title: "Software Engineering Fellow",
       reference:
         "Ryan is an exceptional full-stack developer with outstanding technical skills and a keen eye for detail. He consistently navigates complex technical challenges with ease and produces work of the highest quality. Ryan is an excellent team player who fosters positive working relationships and communicates effectively to ensure project requirements are met efficiently. Ryan's curious and critical thinking was instrumental in our team's success and helped us deliver high-quality work on time.",
-    },
-  
-    {
-      name: "TestName2",
-      title: "My Title2",
-      reference: "Ryan is a super great guy",
-    },
+    }
   ];
 
 export const projects = [

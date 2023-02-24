@@ -10,9 +10,7 @@ import "./NavBar.css";
 export default function NavBar() {
   const [index, setIndex] = useState(0);
   const [iterator, setIterator] = useState(0)
-  // const iterator = useRef(0)
-  
-  // let iterator = 0
+
   let text = ["Software Engineer", "Innovator", "Developer", "Project Manager", "Multinationals", "Sustainable Design"]
   useEffect(() => {
     const timer = setInterval(() => {
