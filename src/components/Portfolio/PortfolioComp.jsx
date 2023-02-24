@@ -20,13 +20,13 @@ export default function PortfolioComp() {
                             let img = item.img !== "" ? "./projectImages/NASA.jpg" : "./projectImages/NASA.jpg"
                             return (
                                 <div className='PortfolioComp-ContentHolder' key={index}>
-                                    <h3 className='PortHead'>
-                                        <a href={item.github} target="_blank">
-                                            {item.title}
-                                        </a>
-                                    </h3>
-                                    <img src={require("" + item.img)} alt="An Image" className='projImages'/>
-                                    <p className='portDesc'>{item.description}</p>
+                                    <a href={item.github} target="_blank">
+                                        <h3 className='PortHead'>
+                                                {item.title}
+                                        </h3>
+                                        <img src={require("" + item.img)} alt="An Image" className='projImages'/>
+                                        <p className='portDesc'>{item.description}</p>
+                                    </a>
                                 </div>                              
                             )
                             }
