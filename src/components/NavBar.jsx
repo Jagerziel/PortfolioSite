@@ -1,4 +1,5 @@
-// Import React-Router-Dom
+//Import Modules
+import { useEffect, useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 // Import Components
 
@@ -7,7 +8,33 @@ import "./NavBar.css";
 
 // Export NavBar Function
 export default function NavBar() {
+  const [index, setIndex] = useState(0);
+  const [iterator, setIterator] = useState(0)
+  // const iterator = useRef(0)
   
+  // let iterator = 0
+  let text = ["Software Engineer", "Innovator", "Developer", "Project Manager", "Multinational"]
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prevIndex) => {
+        if (prevIndex === text[iterator].length) {
+          setIterator(prev => {
+            if (prev + 1 === text.length) {
+              return 0
+            }
+            return prev + 1
+          })
+          return 0;
+        }
+        return prevIndex + 1;
+      });
+
+    }, 200);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
   // Return Div for NavBar Container
   return (
@@ -17,7 +44,8 @@ export default function NavBar() {
             Ryan Ehrlich
         </div>
         <div className="NavBar-title">
-            Software Engineer
+            {/* Software Engineer */}
+            {text[iterator].substring(0, index)}
         </div>
       </div>
       <div className="NavLinks-container">
