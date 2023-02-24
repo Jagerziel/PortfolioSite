@@ -34,5 +34,24 @@
 .Email-Page-ContentHolder {
     border: solid red 2px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+.EmailForm {
+    display: flex;
+    flex-direction: column;
+    border: solid red 2px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.Email-Form-Holder {
+    display: flex;
+    align-items: center;
+    border: solid blue 2px;
+    padding: 15px;
+    width: 50%
 }

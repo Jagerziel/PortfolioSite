@@ -12,7 +12,7 @@ export default function Contact() {
     <div className="Contact-container">
       <div>
         <ContactPage />
-        <Email />
+        {/* <Email /> */}
       </div>
     </div>
   );

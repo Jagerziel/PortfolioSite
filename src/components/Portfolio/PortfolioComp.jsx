@@ -11,7 +11,7 @@ import { projects } from '../../backend/db/dataExports.js';
 // Export ReferenceComp Function
 export default function PortfolioComp() {
     // Return Div for PortfolioComp Container
-    console.log(projects)
+    // console.log(projects)
     return (
         <>
             <div className="PortfolioComp-container">

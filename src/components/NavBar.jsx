@@ -13,7 +13,7 @@ export default function NavBar() {
   // const iterator = useRef(0)
   
   // let iterator = 0
-  let text = ["Software Engineer", "Innovator", "Developer", "Project Manager", "Multinational"]
+  let text = ["Software Engineer", "Innovator", "Developer", "Project Manager", "Multinationals", "Sustainable Design"]
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prevIndex) => {
@@ -52,13 +52,13 @@ export default function NavBar() {
         {/* <NavLink to="/" className="Link" activeClassName="active">
             Home
         </NavLink> */}
-        <NavLink to="/About" className="Link" activeClassName="active">
+        <NavLink to="/About" className="Link">
             About
         </NavLink>
-        <NavLink to="/Portfolio" className="Link" activeClassName="active">
+        <NavLink to="/Portfolio" className="Link">
             Portfolio
         </NavLink>
-        <NavLink to="/Contact" className="Link" activeClassName="active">
+        <NavLink to="/Contact" className="Link">
             Contact
         </NavLink>
       </div>

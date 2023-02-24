@@ -26,10 +26,10 @@ export default function AboutMe() {
             <img className="profile-img" src="images/profilepic01.jpeg" alt="Img" />
           </div>
           <div className="AboutMe-Right">
-            <h2>
-              An Innovative Mindset that Brings Projects to New Heights
+            <h2 className="AboutMe-Paragraph-Header">
+              A Creative Mindset that Brings Projects to New Heights
             </h2>
-            <p id="italics">I'm an innovator with a passion for business and tech.  Here are some of my passions: </p>
+            <p id="italics">An innovator with a passion for business and techology</p>
             <div className="AboutMe-List">
               <ul>
                 <li className="amli">
@@ -75,7 +75,7 @@ export default function AboutMe() {
             <div className="AboutMe-Desc">
               My passion is creating things that have never been built before and I blueprint to ensure the creation can evolve, maintain sustainable upkeep costs, and foster easy adoption.   
             </div>
-            <div className="AboutMe-Desc">
+            <div className="AboutMe-Desc" id="subscript">
               Always innovating, always sharing ideas, and always pushing the limits.
             </div>
             <a
