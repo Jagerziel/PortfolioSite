@@ -32,6 +32,11 @@ export default function ContactPage() {
                     DETAILS
                 </h1>
                 <div className="Contact-Page-ContentHolder">
+                    <div className="ContactRight">
+                        <p className="ContactDesc">As a lifelong innovator I'm intrigued by other's approaches, methodologies, principals, and strategies.  I enjoy learning and teaching and I very much welcome the opportunity to collaborate or brainstorm ideas. 
+                        </p>
+                        <p className="ContactDesc">Please reach out and say hello!</p>
+                    </div>
                     <div className="ContactLeft">
                         <div>
                             <div className="ContactLeftBox">
@@ -51,11 +56,6 @@ export default function ContactPage() {
                                 <div>Download CV</div>
                             </div>
                         </div>
-                    </div>
-                    <div className="ContactRight">
-                        <p className="ContactDesc">As a lifelong innovator I'm intrigued by other's approaches, methodologies, principals, and strategies.  I enjoy learning and teaching and I very much welcome the opportunity to collaborate or brainstorm ideas. 
-                        </p>
-                        <p className="ContactDesc">Please reach out and say hello!</p>
                     </div>
                 </div>
             </div>
