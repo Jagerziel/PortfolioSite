@@ -3,13 +3,6 @@
     padding-bottom: 4rem;
 }
 
-.client_review {
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 14px auto 0;
-}
 
 .swiper-pagination-bullet.swiper-pagination-clickable {
     background: var(--color-primary);
@@ -24,7 +17,7 @@
     text-align: center;
     font-size: 18px;
     background: transparent;
-
+    
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -38,22 +31,32 @@
     object-fit: cover;
 }
 .feedbacks {
-    margin-top: 60px;
     text-align: center;
     color: white;
     font-feature-settings: "smcp";
     font-variant: small-caps;
-    padding-bottom: 1rem;
 }
+
 .client_review {
+    color: var(--color-light);
+    font-weight: 300;
+    font-size: 0.8em;
+    display: block;
+    width: 80%;
+    margin: 14px auto 0;
     text-align: center;
     font-style: italic;
 }
+
 .references-name {
     margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.9em;
     font-style: normal;
-    color: #0ecde0;
+    /* color: #0ecde0; */
+    color: white;
 }
+
 
 /* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
 
