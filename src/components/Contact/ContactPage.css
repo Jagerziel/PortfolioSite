@@ -14,12 +14,6 @@
     /* border-radius: 15px; */
 }
 
-/* .Contact-Page-container-overlay:hover {
-    background: rgba(104, 242, 255, 0.544);
-    border: solid rgb(133, 251, 255) 2px;
-} */
-
-
 .Contact-Page-Header {
     text-align: left;
     color: #aaaaaa;
@@ -86,3 +80,25 @@
         invert(100%)
 }
 
+@media screen and (max-width: 830px) {
+    .Contact-Page-ContentHolder {
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .ContactRight {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .ContactLeft {
+        width: 100%;
+    }
+    .ContactDesc {
+        /* padding: 0.5rem 0 0 0; */
+        font-style: italic;
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+}

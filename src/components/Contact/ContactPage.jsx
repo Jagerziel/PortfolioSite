@@ -20,7 +20,8 @@ export default function ContactPage() {
                 </h1>
                 <div className="Contact-Page-ContentHolder">
                     <div className="ContactRight">
-                        <p className="ContactDesc">As a lifelong innovator I'm intrigued by other's approaches, methodologies, principals, and strategies.  I enjoy learning and teaching and I very much welcome the opportunity to collaborate or brainstorm ideas. 
+                        <p className="ContactDesc">
+                            Be the change you want to see in the world.  I enjoy teaching and learing from others and I look forward to strategizing approaches, methodologies, and philosphies.  Please do not hesitate to reach out and I look forward to the opportunity to collaborate or brainstorm ideas. 
                         </p>
                         <p className="ContactDesc">Please reach out and say hello!</p>
                     </div>

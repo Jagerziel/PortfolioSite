@@ -158,29 +158,32 @@ transform: scale(1.1);
 color: rgb(36, 203, 203);
 font-weight: bold;
 }
+
 .SESkills-ContentHolder {
 background-color: rgba(0, 0, 0, 0.713);
 }
 /* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
 
 @media screen and (max-width: 830px) {
-.SESkills-ContentHolder {
-    /* border: solid red 2px; */
-    padding: 0px 0 0px 0;
-    margin: 0 0 0 0;
-    --n: 3 !important;
-    --m: 3 !important;
-    --g: 20px;
-    --f: 1.5;
-    display: grid;
-    gap: var(--g);
-    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
-    grid-template-columns: repeat(var(--m), auto);
+    .SESkills-ContentHolder {
+        /* border: solid red 2px; */
+        padding: 0px 0 0px 0;
+        margin: 0 0 0 0;
+        --n: 3 !important;
+        --m: 3 !important;
+        --g: 20px;
+        --f: 1.5;
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
 }
+
 .NavBar-title {
     display: none;
 }
+
 .PortfolioComp-RefHolder {
     color: white;
     width: 100%;
