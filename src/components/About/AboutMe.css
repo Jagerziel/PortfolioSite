@@ -178,178 +178,220 @@ background-color: rgba(0, 0, 0, 0.713);
         width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
         height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
         grid-template-columns: repeat(var(--m), auto);
+    }
+
+    .NavBar-title {
+        display: none;
+    }
+
+    .PortfolioComp-RefHolder {
+        color: white;
+        width: 100%;
+        margin: 0 0 0 0;
+        --n: 2 !important;
+        --m: 2 !important;
+        --g: 0 !important;
+        --f: 1.5;
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
+    }
+    .PortfolioComp-ContentHolder {
+        margin: 20px;
+        padding: 20px;
+        width: 300px !important;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .AboutMe-Left {
+        width: 33%;
+        height: auto;
+        padding: 1rem 1.3rem 1rem 0rem;
+        max-height: 350px;
+    }
+    .About-container {
+        /* border: solid rgb(0, 255, 170) 2px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 0 !important;
+    }
 }
 
-.NavBar-title {
-    display: none;
+/* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
+
+@media screen and (max-width: 1000px) {
+    .SESkills-ContentHolder {
+        /* border: solid red 2px; */
+        padding: 0px 0 0px 0;
+        margin: 0 0 0 0;
+        --n: 3 !important;
+        --m: 3 !important;
+        --g: 20px;
+        --f: 1.5;
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
+    }
 }
 
-.PortfolioComp-RefHolder {
-    color: white;
-    width: 100%;
-    margin: 0 0 0 0;
-    --n: 2 !important;
-    --m: 2 !important;
-    --g: 0 !important;
-    --f: 1.5;
-    display: grid;
-    gap: var(--g);
-    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
-    grid-template-columns: repeat(var(--m), auto);
+@media screen and (max-width: 830px) {
+    .SESkills-ContentHolder {
+        /* border: solid red 2px; */
+        padding: 0px 0 0px 0;
+        margin: 0 0 0 0;
+        --n: 2 !important;
+        --m: 2 !important;
+        --g: 20px;
+        --f: 1.5;
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
+    }
 }
-.PortfolioComp-ContentHolder {
-    margin: 20px;
-    padding: 20px;
-    width: 300px !important;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-}
-.AboutMe-Left {
-    width: 33%;
-    height: auto;
-    padding: 1rem 1.3rem 1rem 0rem;
-    max-height: 350px;
-}
-.About-container {
-    /* border: solid rgb(0, 255, 170) 2px; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 0 !important;
-}
-}
+
+
+
+
+
+
 
 /* ==================Mobile 390px Iphone 12 Pro QUERIES (SMALL DEVICES)==================== */
 
 @media screen and (max-width: 600px) {
-.About-Me-Header {
-    display: none;
-}
-.AboutMe-container {
-    width: 92vw;
-    background: rgba(0, 0, 0, 0.9);
-    padding: 0 2rem 2rem 2rem;
-    color: white;
-}
-.NavBar-name {
-    display: none;
-}
-.NavBar-title {
-    display: none;
-}
-.NavBar-container {
-    height: 80px;
-    position: sticky;
-    left: 0;
-    top: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.98);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 999999;
-}
-.AboutMe-ContentHolder {
-    display: flex;
-    flex-direction: column;
-}
-.AboutMe-Right {
-    width: 85%;
-    height: auto;
-    padding-top: 1rem;
-    display: flexbox;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-.App {
-    text-align: initial;
-}
-.AboutMe-Left {
-    width: 85%;
-    height: auto;
-    padding: 1rem 1.3rem 1rem 1.3rem;
-    margin: 0 auto;
-}
-.AboutMe-Desc {
-    font-size: 1em;
-    text-align: justify;
-    line-height: 1.7;
-    margin-bottom: 30px;
-    width: 110%;
-}
-.SESkills-Header {
-    text-align: center !important;
-}
-#italics {
-    /* font-style: italic; */
-    font-size: 1rem;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: rgb(36, 203, 203);
-    font-weight: bold;
-    text-align: justify;
-    min-width: 111%;
-}
-.AboutMe-List {
-    padding: 30px;
-    --n: 1; /* number of rows*/
-    --m: 1; /* number of columns */
-    /* --g: 20px; */
-    /* control the gap */
-    --f: 1.5; /* control the scale factor */
+    .About-Me-Header {
+        display: none;
+    }
+    .AboutMe-container {
+        width: 92vw;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 0 2rem 2rem 2rem;
+        color: white;
+    }
+    .NavBar-name {
+        display: none;
+    }
+    .NavBar-title {
+        display: none;
+    }
+    .NavBar-container {
+        height: 80px;
+        position: sticky;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.98);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 999999;
+    }
+    .AboutMe-ContentHolder {
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutMe-Right {
+        width: 85%;
+        height: auto;
+        padding-top: 1rem;
+        display: flexbox;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .App {
+        text-align: initial;
+    }
+    .AboutMe-Left {
+        width: 85%;
+        height: auto;
+        padding: 1rem 1.3rem 1rem 1.3rem;
+        margin: 0 auto;
+    }
+    .AboutMe-Desc {
+        font-size: 1em;
+        text-align: justify;
+        line-height: 1.7;
+        margin-bottom: 30px;
+        width: 110%;
+    }
+    .SESkills-Header {
+        text-align: center !important;
+    }
+    #italics {
+        /* font-style: italic; */
+        font-size: 1rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color: rgb(36, 203, 203);
+        font-weight: bold;
+        text-align: justify;
+        min-width: 111%;
+    }
+    .AboutMe-List {
+        padding: 30px;
+        --n: 1; /* number of rows*/
+        --m: 1; /* number of columns */
+        /* --g: 20px; */
+        /* control the gap */
+        --f: 1.5; /* control the scale factor */
 
-    display: grid;
-    gap: var(--g);
-    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
-    grid-template-columns: repeat(var(--m), auto);
-}
-.amli {
-    text-align: initial;
-    border-left: 1px solid  rgb(36, 203, 203);
-    border-right: 1px solid  rgb(36, 203, 203);
-    padding: 10px 40px;
-    gap: 3rem;
-}
-ul {
-    margin: unset !important;
-    padding: unset !important;
-}
-.SESkills-ContentHolder {
-    padding: 30px !important;
-    --n: 1 !important; /* number of rows*/
-    --m: 1 !important; /* number of columns */
-    --g: 40px !important; /* control the gap */
-    --f: 1.5 !important; /* control the scale factor */
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
+    }
+    .amli {
+        text-align: initial;
+        border-left: 1px solid  rgb(36, 203, 203);
+        border-right: 1px solid  rgb(36, 203, 203);
+        padding: 10px 40px;
+        gap: 3rem;
+    }
+    ul {
+        margin: unset !important;
+        padding: unset !important;
+    }
+    .SESkills-ContentHolder {
+        padding: 30px !important;
+        --n: 1 !important; /* number of rows*/
+        --m: 1 !important; /* number of columns */
+        --g: 40px !important; /* control the gap */
+        --f: 1.5 !important; /* control the scale factor */
 
-    display: grid;
-    gap: var(--g);
-    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
-    grid-template-columns: repeat(var(--m), auto);
-}
+        display: grid;
+        gap: var(--g);
+        width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+        height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+        grid-template-columns: repeat(var(--m), auto);
+    }
 
-.About-container {
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
-}
-.PortfolioComp-ContentHolder {
-    margin: 0 auto !important;
-}
-.Portfolio-Header {
-    text-align: left;
-    color: white;
-    padding-bottom: 1rem;
-    padding-left: 10px;
-}
-.NavBar-container {
-    padding: 0 10px 0 10px;
-}
+    .About-container {
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
+    .PortfolioComp-ContentHolder {
+        margin: 0 auto !important;
+    }
+    .Portfolio-Header {
+        text-align: left;
+        color: white;
+        padding-bottom: 1rem;
+        padding-left: 10px;
+    }
+    .NavBar-container {
+        padding: 0 10px 0 10px;
+    }
 }
   

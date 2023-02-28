@@ -143,7 +143,6 @@
 .PortfolioComp-Button {
     border: 2px solid white;
     padding: 6px 0px 6px 0px;
-    height: ;
     width: 70px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -153,3 +152,4 @@
     color: rgb(133, 251, 255);
     border: 2px solid rgb(133, 251, 255);
 }
+
