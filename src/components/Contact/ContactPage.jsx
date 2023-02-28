@@ -26,7 +26,7 @@ export default function ContactPage() {
                         <p className="ContactDesc">Please reach out and say hello!</p>
                     </div>
                     <div className="ContactLeft">
-                        <div>
+                        <div className="ContactLeftBoxHolder">
                             <div className="ContactLeftBox">
                                 <a href="https://www.linkedin.com/in/ryanehrlich/" target="_blank">
                                     <img src={require("./Icons/LinkedinIcon.png")} className="ContactIcon1"/>
@@ -40,7 +40,9 @@ export default function ContactPage() {
                                 <div>Github</div>
                             </div>
                             <div className="ContactLeftBox">
-                                <img src={require("./Icons/CVIcon.png")} className="ContactIcon1" onClick={ () => window.open(require("./Documents/Resume.pdf"), '_none')}/>
+                                <div className="hover">
+                                    <img src={require("./Icons/CVIcon.png")} className="ContactIcon1" onClick={ () => window.open(require("./Documents/Resume.pdf"), '_none')}/>
+                                </div>
                                 <div>Download CV</div>
                             </div>
                         </div>

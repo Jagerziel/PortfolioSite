@@ -4,14 +4,10 @@
     max-width: 1550px;
     background: rgba(0, 0, 0, 0.9);
     color: white;
-    /* border-radius: 15px; */
 }
 
 .Contact-Page-container-overlay {
     padding: 2rem;
-    /* background: rgba(169, 249, 255, 0.444);
-    border: solid rgb(255, 255, 255) 2px; */
-    /* border-radius: 15px; */
 }
 
 .Contact-Page-Header {
@@ -79,8 +75,43 @@
     filter: 
         invert(100%)
 }
+.hover:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
 
 @media screen and (max-width: 830px) {
+    .Contact-Page-ContentHolder {
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .ContactRight {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .ContactLeft {
+        width: 100%;
+    }
+    .ContactDesc {
+        /* padding: 0.5rem 0 0 0; */
+        font-style: italic;
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .ContactLeftBoxHolder {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+@media screen and (max-width: 630px) {
     .Contact-Page-ContentHolder {
         /* border: solid red 2px; */
         display: flex;
