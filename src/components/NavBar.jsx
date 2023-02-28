@@ -11,7 +11,7 @@ export default function NavBar() {
   const [index, setIndex] = useState(0);
   const [iterator, setIterator] = useState(0)
 
-  let text = ["Software Engineer", "Innovator", "Developer", "Project Manager", "Multinationals", "Sustainable Design"]
+  let text = ["Software Engineering", "Innovator", "Fullstack Developer", "Project Manager", "Multinationals", "Sustainable Design"]
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prevIndex) => {

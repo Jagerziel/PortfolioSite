@@ -8,13 +8,13 @@
 }
 
 #linkedin > a {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.2s;
     background-color: unset;
     border: unset;
 }
 
 #linkedin:hover {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.2s;
     transform: scale(1.1) !important;
     background-color: unset;
     border: unset;
@@ -116,7 +116,7 @@ ul {
 
 .amli :hover {
     /* color: white; */
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.2s;
     /* filter:  */
         /* invert(20%) */
         /* sepia(76%) */
@@ -147,7 +147,7 @@ font-weight: bold;
 }
 
 a:hover {
-transition: ease-in-out 0.3s;
+transition: ease-in-out 0.2s;
 transform: scale(1.1);
 }
 /* #AboutMe-LBSS { */
