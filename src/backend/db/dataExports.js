@@ -56,9 +56,9 @@ export const projects = [
         "deploy": "Null",
     },
     {
-        "title": "Contact Book Command Line",
+        "title": "Contact Book",
         "img": "./projectImages/API_All-Projects_JSON.png",
-        "description": "Who needs an address book when you can do it all through your computer's terminal?  This project is a fun and practical utilization of PSQL.  Try it out!",
+        "description": "Who needs an address book when you can do it all through your computer's terminal?  This project is a fun and practical utilization of PSQL where you can maintain a contact book through your computer's terminal.  Clone this repo and try it out!",
         "github": "https://github.com/Jagerziel/Contact_Book-Command_Line_App",
         "deploy": "Null",
     },

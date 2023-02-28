@@ -14,7 +14,7 @@ export default function PortfolioComp() {
     // console.log(projects)
     function Demo (item) {
         if (item.deploy !== "Null") {
-            return <a href={item.deploy} target="_blank" className='PortfolioComp-Button' id="demo">Demo </a>
+            return <a href={item.deploy} target="_blank" className='PortfolioComp-Button'>Demo </a>
         }
     }
     return (

@@ -82,7 +82,7 @@
     overflow-y: scroll;
     min-width: 250px;
     max-width: 325px;
-    height: 350px;
+    height: 375px;
 }
 
 .PortfolioComp-ContentHolder:hover {
@@ -123,11 +123,12 @@
 }
 
 .portDesc {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 5px;
     font-style: italic;
     font-size: .8em;
     padding-bottom: 10px;
+    height: 80px;
     overflow-y: scroll;
 }
 
@@ -141,11 +142,14 @@
 
 .PortfolioComp-Button {
     border: 2px solid white;
-    padding: 4px 6px 4px 6px;
+    padding: 6px 0px 6px 0px;
+    height: ;
+    width: 70px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-#demo {
-    /* visibility: hidden; */
+.PortfolioComp-Button:hover {
+    color: rgb(133, 251, 255);
+    border: 2px solid rgb(133, 251, 255);
 }
