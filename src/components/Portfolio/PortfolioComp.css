@@ -26,6 +26,7 @@
     grid-template-columns: repeat(var(--m), auto);    
 }
 
+
 @media screen and (max-width: 1300px) {
     .PortfolioComp-RefHolder {
         margin: 0 0 0 0;
@@ -81,7 +82,7 @@
     overflow-y: scroll;
     min-width: 250px;
     max-width: 325px;
-    height: 315px;
+    height: 350px;
 }
 
 .PortfolioComp-ContentHolder:hover {
@@ -122,8 +123,29 @@
 }
 
 .portDesc {
-    padding-top: 1rem;
+    border: 2px solid red;
+    padding-top: 5px;
     font-style: italic;
     font-size: .8em;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.PortfolioComp-ButtonHolder {
     /* border: 2px solid red; */
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.PortfolioComp-Button {
+    border: 2px solid white;
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#demo {
+    /* visibility: hidden; */
 }

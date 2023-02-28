@@ -46,27 +46,27 @@ export const projects = [
         "img": "./projectImages/Fish.jpg",
         "description": "This mini-project was utilized to showcase a colleague's API project.  The front-end provides a responsive design and of course a lot of cool information about fish. ",
         "github": "https://github.com/Jagerziel/Fish",
-        "deploy": "",
+        "deploy": "Null",
     },
     {
         "title": "NASA API Project",
         "img": "./projectImages/NASA.jpg",
         "description": "The NASA Projects API allows you to dynamically view a subset of missions undertaken by NASA detailing the mission description, planets visited, and the mission dates/duration.  For convenience, a limited front-end is included for easy navigation.",
         "github": "https://github.com/Jagerziel/NASA_Project_API",
-        "deploy": "",
+        "deploy": "Null",
     },
     {
         "title": "Contact Book Command Line",
         "img": "./projectImages/API_All-Projects_JSON.png",
         "description": "Who needs an address book when you can do it all through your computer's terminal?  This project is a fun and practical utilization of PSQL.  Try it out!",
         "github": "https://github.com/Jagerziel/Contact_Book-Command_Line_App",
-        "deploy": "",
+        "deploy": "Null",
     },
     {
         "title": "Leet Code",
         "img": "./projectImages/LeetCode2.png",
         "description": "This is a repo where I share my solutions to various Leet Code problems. Included at the start of each file is the date started and language used. At the end of each file, you will see the Leet Code solution times, memory, and percentages.",
         "github": "https://github.com/Jagerziel/Leet_Code",
-        "deploy": "",
+        "deploy": "Null",
     }
 ]
