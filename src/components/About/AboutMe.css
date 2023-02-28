@@ -60,10 +60,10 @@
       brightness(104%) contrast(104%);
 }
 
-.AMImg:hover {
-    filter: invert(75%) sepia(93%) saturate(2625%) hue-rotate(135deg)
-        brightness(96%) contrast(89%);
-}
+/* .AMImg:hover { */
+    /* filter: invert(75%) sepia(93%) saturate(2625%) hue-rotate(135deg)
+        brightness(96%) contrast(89%); */
+/* } */
 
 .AboutMe-Right {
     /* border: green 2px solid; */
@@ -110,22 +110,13 @@ ul {
     display: flex;
     align-items: center;
     gap: 1rem;
-    /* color: rgb(179, 210, 253); */
-    color: rgba(255, 255, 255, 0.7);
+    color: rgb(255, 255, 255);
 }
 
-.amli :hover {
-    /* color: white; */
+.amli:hover {
     transition: ease-in-out 0.2s;
-    /* filter:  */
-        /* invert(20%) */
-        /* sepia(76%) */
-        /* saturate(1211%) */
-        /* hue-rotate(190deg) */
-        /* brightness(1007%) */
-        /* contrast(100%) */
+    filter: invert(86%) sepia(49%) saturate(1330%) hue-rotate(136deg) brightness(431%) contrast(95%)
 }
-
 
 .AboutMe-Desc {
     font-size: 1em;

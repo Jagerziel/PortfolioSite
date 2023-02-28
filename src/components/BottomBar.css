@@ -1,6 +1,7 @@
 .BottomBar-container {
     /* border: solid red 2px; */
     position: fixed;
+    height: 20px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -13,9 +14,20 @@
     white-space: pre;
 }
 
-/* WORKING ON THIS */
 .BottomBar-text {
     /* border: solid red 2px; */
     overflow-wrap: break-word;
 }
 
+.BottomBar-text-small {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .BottomBar-text {
+        display: none;
+    }
+    .BottomBar-text-small {
+        display: contents;
+    }
+}
