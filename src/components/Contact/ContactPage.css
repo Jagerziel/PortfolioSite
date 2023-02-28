@@ -48,7 +48,17 @@
     /* padding: 0.5rem 0 0 0; */
     font-style: italic;
     font-size: 1.3em;
-    text-align: left;
+    /* text-align: left; */
+}
+
+#blue {
+    filter: 
+        invert(50%)
+        sepia(76%)
+        saturate(1211%)
+        hue-rotate(180deg)
+        brightness(207%)
+        contrast(100%)
 }
 
 .ContactLeftBox {
@@ -99,7 +109,7 @@
         /* padding: 0.5rem 0 0 0; */
         font-style: italic;
         font-size: 1.2em;
-        text-align: left;
+        /* text-align: left; */
     }
     .ContactLeftBoxHolder {
         display: flex;
@@ -126,7 +136,7 @@
         /* padding: 0.5rem 0 0 0; */
         font-style: italic;
         font-size: 1.1em;
-        text-align: left;
+        /* text-align: left; */
     }
     .ContactLeftBoxHolder {
         width: 100%;

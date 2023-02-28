@@ -21,7 +21,10 @@ export default function ContactPage() {
                 <div className="Contact-Page-ContentHolder">
                     <div className="ContactRight">
                         <p className="ContactDesc">
-                            Be the change you want to see in the world.  I enjoy teaching and learing from others and I look forward to strategizing approaches, methodologies, and philosophies.  Please do not hesitate to reach out and I look forward to the opportunity to collaborate or brainstorm ideas. 
+                            <span id="blue">"Be the change you want to see in the world"</span>
+                        </p>
+                        <p className="ContactDesc">
+                            I enjoy teaching and learing from others and I look forward to strategizing approaches, methodologies, and philosophies.  Let's collaborate and brainstorm ideas. 
                         </p>
                         <p className="ContactDesc">Please reach out and say hello!</p>
                     </div>

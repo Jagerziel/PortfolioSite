@@ -5,6 +5,7 @@
 html {
   text-align: center;
   background: url(../public/images/circuit1.jpg) no-repeat center center fixed;
+  background-color: black;
   background-size: cover;
 }
 
