@@ -74,7 +74,11 @@
     }
     .client_review {
         width: 80%;
+        font-size: 0.8em;
         margin: 0 auto;
+    }
+    .references-name {
+        font-size: 0.8em;
     }
     .swiper-button-next:after {
         font-size: 28px !important;
