@@ -1,3 +1,4 @@
+import React from "react";
 // Import Components
 
 // Import CSS
@@ -6,21 +7,7 @@ import "./ContactPage.css";
 
 // Export About Function
 export default function ContactPage() {
-    // Function will execute on click of button
-    const onButtonClick = () => {
-        // using Java Script method to get PDF file
-        fetch('./Documents/').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Resume.pdf';
-                alink.click();
-            })
-        })
-    }
+
     // Return Div for About Container
     return (
         <div className="Contact-Page-container">
@@ -52,7 +39,7 @@ export default function ContactPage() {
                                 <div>Github</div>
                             </div>
                             <div className="ContactLeftBox">
-                                <img src={require("./Icons/CVIcon.png")} className="ContactIcon1" onClick={onButtonClick}/>
+                                <img src={require("./Icons/CVIcon.png")} className="ContactIcon1" onClick={ () => window.open(require("./Documents/Resume.pdf"), '_none')}/>
                                 <div>Download CV</div>
                             </div>
                         </div>
