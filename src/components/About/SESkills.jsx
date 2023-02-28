@@ -16,76 +16,76 @@ export default function SESkills() {
         </div>
         <div className="SESkills-ContentHolder">
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" className="SEli">
                     <div><img id="img1" className="SES-img" src="images/HTMLIcon.png" alt="Img" /></div>
                     <div className="whiteText">HTML</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" className="SEli">
                     <div><img id="img2" className="SES-img" src="images/CSSIcon.png" alt="Img" /></div>
                     <div className="whiteText">CSS</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className="SEli">
                     <div><img id="img3" className="SES-img" src="images/JSIcon.png" alt="Img" /></div>
                     <div className="whiteText">JavaScript</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://docs.python.org/3/tutorial/" target="_blank" className="SEli">
                     <div><img id="img4" className="SES-img" src="images/PythonIcon.png" alt="Img" /></div>
-                    <div className="whiteText">Python3</div>
-                </div>
+                    <div className="whiteText">Python</div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js" target="_blank" className="SEli">
                     <div><img id="img5" className="SES-img" src="images/NodeJSIcon.png" alt="Img" /></div>
                     <div className="whiteText">Node.js</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs" target="_blank" className="SEli">
                     <div><img id="img6" className="SES-img" src="images/ExpressIcon.png" alt="Img" /></div>
                     <div className="whiteText">Express</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://reactjs.org/" target="_blank" className="SEli">
                     <div><img id="img7" className="SES-img" src="images/ReactIcon.png" alt="Img" /></div>
                     <div className="whiteText">React</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://mongoosejs.com/" target="_blank" className="SEli">
                     <div><img id="img8" className="SES-img" src="images/MongooseIcon.png" alt="Img" /></div>
                     <div className="whiteText">Mongoose</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://www.mongodb.com/docs/" target="_blank" className="SEli">
                     <div><img id="img9" className="SES-img" src="images/DBIcon.png" alt="Img" /></div>
                     <div className="whiteText">MongoDB</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://www.postgresql.org/docs/current/index.html" target="_blank" className="SEli">
                     <div><img id="img10" className="SES-img" src="images/SQLIcon.png" alt="Img" /></div>
                     <div className="whiteText">PostgresSQL</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" className="SEli">
                     <div><img id="img11" className="SES-img" src="images/CIcon.png" alt="Img" /></div>
                     <div className="whiteText">C</div>
-                </div>
+                </a>
             </div>
             <div className="IconBox">
-                <div className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST" target="_blank" className="SEli">
                     <div><img id="img12" className="SES-img" src="images/RoutingIcon.png" alt="Img" /></div>
                     <div className="whiteText">RESTful Routing</div>
-                </div>
+                </a>
             </div>
         </div>
       </div>
