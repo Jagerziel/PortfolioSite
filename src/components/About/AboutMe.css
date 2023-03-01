@@ -150,9 +150,6 @@ color: rgb(36, 203, 203);
 font-weight: bold;
 }
 
-.SESkills-ContentHolder {
-background-color: rgba(0, 0, 0, 0.713);
-}
 /* ==================MEDIA QUERIES (MEDIUM DEVICES)==================== */
 
 @media screen and (max-width: 830px) {
@@ -283,6 +280,7 @@ background-color: rgba(0, 0, 0, 0.713);
         display: flex;
         align-items: center;
         justify-content: space-between;
+        overflow-x: hidden;
         z-index: 999999;
     }
     .AboutMe-ContentHolder {

@@ -16,7 +16,9 @@
 
 .SESkills-ContentHolder {
     /* border: solid red 2px; */
+    background-color: rgba(0, 0, 0, 0.713);
     padding: 0px 0 0px 0;
+    /* border: 3px solid rgba(0, 0, 0, 0.713); */
     margin: 0 0 0 0;
     --n: 3; /* number of rows*/
     --m: 4; /* number of columns */
@@ -34,6 +36,7 @@
     align-items: center;
     padding: 1.2em 1.2em 1.2em 2em;
     background: rgba(255, 255, 255, 0.08);
+    /* background: rgba(50, 50, 50, 0.60); */
     transition: ease-in-out 0.2s;
 }
 
