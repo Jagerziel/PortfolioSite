@@ -367,7 +367,6 @@ background-color: rgba(0, 0, 0, 0.713);
         height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
         grid-template-columns: repeat(var(--m), auto);
     }
-
     .About-container {
         padding-bottom: 0 !important;
         padding-top: 0 !important;
@@ -381,8 +380,13 @@ background-color: rgba(0, 0, 0, 0.713);
         padding-bottom: 1rem;
         padding-left: 10px;
     }
-    .NavBar-container {
-        padding: 0 10px 0 10px;
+    .NavLinks-container {
+        /* border: red solid 2px; */
+        width: 100%;
+        /* display: flex; */
+        justify-content: space-around;
+        padding: 0;
+        margin-right: 0 !important;
     }
-}
+} 
   

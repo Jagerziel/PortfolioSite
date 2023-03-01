@@ -17,5 +17,6 @@ a {
 .App {
   /* border: 2px rgb(43, 255, 0) solid; */
   text-align: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  /* contain: paint; */
 }
