@@ -24,7 +24,7 @@ export default function ContactPage() {
                             <span id="blue">"Be the change you want to see in the world"</span>
                         </p>
                         <p className="ContactDesc">
-                            I enjoy teaching and learing from others and I look forward to strategizing approaches, methodologies, and philosophies.  Let's collaborate and brainstorm ideas. 
+                            I enjoy teaching and learning from others and I look forward to strategizing approaches, methodologies, and philosophies.  Let's collaborate and brainstorm ideas. 
                         </p>
                         <p className="ContactDesc">Please reach out and say hello!</p>
                     </div>

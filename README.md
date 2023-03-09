@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-Deployed Link: https://ryan-ehrlich-porfolio.netlify.app/
+Deployed Link: https://ryanehrlich.netlify.app
