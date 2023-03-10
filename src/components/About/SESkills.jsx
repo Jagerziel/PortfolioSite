@@ -76,7 +76,7 @@ export default function SESkills() {
                 </a>
             </div>
             <div className="IconBox">
-                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" className="SEli">
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django" target="_blank" className="SEli">
                     <div><img id="img11" className="SES-img" src="images/CIcon.png" alt="Img" /></div>
                     <div className="whiteText">Django</div>
                 </a>
